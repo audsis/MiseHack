@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "wisehack",
+  "version": "${version}",
+  "name": "Wisehack-Newbase",
+  "description": "",
+  "authors": [
+    "vasler"
+  ],
+  "contact": {},
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.minecraft.loader.ModLoader"
+    ]
+  },
+  "mixins": [
+    "wise.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

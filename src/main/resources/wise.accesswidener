@@ -1,0 +1,11 @@
+accessWidener v2 named
+
+accessible method net/minecraft/client/world/ClientWorld getPendingUpdateManager ()Lnet/minecraft/client/network/PendingUpdateManager;
+accessible class com/mojang/blaze3d/platform/GlStateManager$CapabilityTracker
+accessible class net/minecraft/network/packet/c2s/play/PlayerInteractEntityC2SPacket$InteractType
+accessible method net/minecraft/network/packet/c2s/play/PlayerInteractEntityC2SPacket write (Lnet/minecraft/network/PacketByteBuf;)V
+accessible method net/minecraft/client/render/GameRenderer renderHand (Lnet/minecraft/client/render/Camera;FLorg/joml/Matrix4f;)V
+accessible field net/minecraft/client/model/ModelPart$Cuboid sides [Lnet/minecraft/client/model/ModelPart$Quad;
+accessible field net/minecraft/client/model/ModelPart children Ljava/util/Map;
+accessible field net/minecraft/client/model/ModelPart cuboids Ljava/util/List;
+
